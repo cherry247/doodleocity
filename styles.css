@@ -1,4 +1,28 @@
-#nav{
+.nav{
+
+position: absolute;
+width:1440px;
+height: 117px;
+left: 0px;
+top: 0px;
+
+background-color:#408885;
+border-radius: 1px;
+}
+.text{
+padding-left: 50px;
+width: 510px;
+height: 78px;
+left: 22px;
+top: 18px;
+font-family: Sanchez;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
 
 }
 #links{
