@@ -2,29 +2,31 @@
 <html>
 <head>
 <title> Doodleocity</title>
- 
-  <link rel="stylesheet" href="styles_test.css">
+  <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="body1">
-  <div class="menu-wrapper">
-    <header class="header">
-     <a href="#home" class="logo">Doodleocity</a>
-     <input class="menu-btn" type="checkbox" id="menu-btn" />
-     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-     <ul class="menu">
-      <li><a href="home.html">Home</a></li>
-       <li><a href="about.html">About</a></li>
-       
-       
-     </ul>
-   </header>
-   </div>
-   
-     
-   <!-- end of navigation hamburger bar-->
+  <header class='header'>  <!-- starting to build navigation hamburger bar-->
+    <nav class="navbar">
+      <a href='#' class="nav-logo" > Doodleocity</a>
+      <ul class="nav-bar">
+        <li class="nav-item">
+          <a href="#" class="nav-link" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link" >About</a>
+        </li>
+
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    </nav>
+  </header> <!-- end of navigation hamburger bar-->
 <!--sarting to build card layout to display doodles-->
 <div class="container">
 
@@ -56,5 +58,5 @@
 
 
 </body>
-
+<script src="main.js"></script>
 </html>

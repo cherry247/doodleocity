@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body{
   font-family: 'Sanchez'
@@ -19,13 +20,17 @@ a {
   text-decoration: none;
 }
 .header{
+ 
   border-bottom: 1px solid #E2E8F0;
+
+  
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+ 
   
 }
 .nav-bar {
